@@ -10,14 +10,58 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/output.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <link rel="icon" href="img/favicon.ico" sizes="any" />
     <style></style>
   </head>
   <body>
-    <div class="container">
+    <div
+      class="min-h-screen md:min-h-[1440px] [@media(min-width:1440px)]:min-h-[768px] flex justify-center items-start mx-auto pt-[120px] pl-[17.5px] pr-[17.5px]"
+    >
+      <div class="w-[340px] bg-white rounded-lg overflow-hidden">
+        <img
+          src="img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+          class="h-[288px] w-full object-cover block"
+        />
+        <div class="py-6 px-4 flex items-start flex-col gap-2">
+          <span
+            class="py-[3px] px-[10px] rounded-full text-sm leading-5 text-center text-green-700 bg-[#f0fdf4] border border-[#bbf7d0]"
+            >Interior</span
+          >
+          <div class="flex flex-col items-start gap-6">
+            <div
+              class="flex flex-col gap-3 leading-6 font-medium text-[#525252]"
+            >
+              Top 5 Living Room Inspirations
+            </div>
+            <p>
+              Curated vibrants colors for your living, make it pop & calm in the
+              same time.
+            </p>
+          </div>
+          <button
+            class="border-none flex items-center gap-[6px] bg-none rounded-md font-medium text-base leading-6 text-[#4338ca] cursor-pointer outline-none p-0 min-w-[114px] hover:text-[#3730a3] focus:text-[#3730a3] focus:[box-shadow:0_0_0_1px_#444ce7,0_0_0_4px_rgba(68,76,231,0.12)] disabled:pointer-events-none disabled:text-[#a3a3a3]"
+          >
+            <span class="flex-1 inline-flex p-0 px-[2px]">Read more</span>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.4763 9.16658L9.00633 4.69657L10.1848 3.51807L16.6667 9.99992L10.1848 16.4817L9.00633 15.3032L13.4763 10.8332H3.33333V9.16658H13.4763Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
       <div class="blog__card">
         <img
           src="img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
@@ -53,7 +97,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Attribute this challenge to yourself! -->
     <div class="credits" data-gfe-screenshot-exclude="true">
       A challenge by
